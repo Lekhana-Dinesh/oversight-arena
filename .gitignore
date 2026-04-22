@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local runtime / temp
+*.log
+.tmp/
+tmp/
+temp/
+
+# Python environment files
+.python-version
+
+# Hugging Face / model artifacts / checkpoints
+checkpoints/
+outputs/
+artifacts/
+hf_cache/
+.cache/
+
+# dotenv / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets*.json
+
+# Local test artifacts
+*.sqlite3
