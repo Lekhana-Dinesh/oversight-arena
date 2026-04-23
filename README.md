@@ -1,3 +1,12 @@
+---
+title: oversight-arena
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # Oversight Arena
 
 Oversight Arena is a deterministic reinforcement-learning environment for training and evaluating an oversight agent. The agent reviews worker answers against structured source records and decides whether to accept the answer or flag a specific error category.
